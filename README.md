@@ -17,7 +17,7 @@ Blogs
 ```
 
 ### Papers
-| Label | Paper info | Citations | Useful links |
+| Tag | Paper info | Citations | Useful links |
 |---|---|---|---|
 
 ### Datasets
