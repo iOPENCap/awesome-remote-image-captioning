@@ -17,8 +17,8 @@ Blogs
 ```
 
 ### Papers
-| Tag | Paper info | Citations | Useful links |
-|---|---|---|---|
+| Tag | Paper info | Description | Citations | Useful links |
+|---|---|---|---|---|
 | `Contextual attention` ,`NWPU-Captions`| [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055/keywords)<br/>*Qimin Cheng; Haiyan Huang; Yuan Xu; Yuzhuo Zhou; Huanying Li; Zhongyuan Wang*<br/>> School of Electronic Information and Communications, Huazhong University of Science and Technology, Wuhan, China<br/>> TGRS 2022 | The paper propose a novel encoder–decoder architecture — multilevel and contextual attention network (MLCA-Net), which improves the flexibility and diversity of the generated captions while keeping their accuracy and conciseness.<br/> | 4 | None |
 | `Change captioning (CC)`, `change detection (CD)`, `Transformer` | [Remote Sensing Image Change Captioning With Dual-Branch Transformers: A New Method and a Large Scale Dataset](https://ieeexplore.ieee.org/document/9934924/keywords#full-text-header)<br/>*Chenyang Liu; Rui Zhao; Hao Chen; Zhengxia Zou; Zhenwei Shi*<br/>>. Beijing Key Laboratory of Digital Media, Beihang University, Beijing, China<br/>> TGRS 2022 | The paper proposes a novel Transformer-based RSICC (RSICCformer) model, which consists of a CNN-based feature extractor, a dual-branch Transformer encoder (DTE) and a caption decoder.<br/> | 3 | None |
 | `joint training`, `multilabel attributes` | [A Joint-Training Two-Stage Method For Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9961235/keywords#full-text-header) <br/>*Xiutiao Ye; Shuang Wang; Yu Gu; Jihui Wang; Ruixuan Wang; Biao Hou; Fausto Giunchiglia; Licheng Jiao*<br/>> Key Laboratory of Intelligent Perception and Image Understanding of Ministry of Education of China, Xidian University, Xi’an, China<br/>> TGRS 2022 | A novel joint-training two-stage (JTTS) method improves remote sensing image captioning by integrating multilabel classification for prior information, utilizing differentiable sampling, and employing an attribute-guided decoder.<br/> | 2 | None |
