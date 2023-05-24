@@ -44,6 +44,9 @@ Blogs
 |---|---|---|---|---|
 | [NWPU-Captions](https://ieeexplore.ieee.org/document/9866055/keywords)<br/>The NWPU-Captions dataset is a larger and more challenging benchmark dataset for remote sensing image captioning, containing 157,500 manually annotated sentences and 31,500 images, offering a greater data volume, category variety, description richness, and wider coverage of complex scenes and vocabulary.<br/>> School of Electronic Information and Communications, Huazhong University of Science and Technology, Wuhan, China<br/>> 2022 | English  | 45 | 31500 | 30 m - <br/>0.2 m  |
 | [LEVIR-CC](https://ieeexplore.ieee.org/document/9934924/keywords#full-text-header)<br/>The LEVIR-CC dataset is a large-scale dataset designed for the RSICC task, consisting of 10077 pairs of RS images and 50385 corresponding sentences describing image differences.<br/>> Beijing Key Laboratory of Digital Media, Beihang University, Beijing, China<br/>> 2022 | English  | 10 | 10077 | 0.5 m - <br/>0.5 m |
+| [RSICD](https://ieeexplore.ieee.org/document/8240966)<br/>It contains more than ten thousands remote sensing images which are collected from Google Earth, Baidu Map, MapABC and Tianditu.<br/>>University of Chinese Academy of Sciences<br/>>2018 | English | 30 | 10921 | None |
+| [Sydney captions](https://ieeexplore.ieee.org/document/7546397)<br/>It contains 7 different scene categories and totally has 613 HSR images.<br/>>University of the Chinese Academy of Sciences<br/>>2016 | English | 7 | 613 | 0.5m |
+| [UCM captions](https://ieeexplore.ieee.org/document/7546397)<br/>It is based on the UC Merced Land Use Dataset and has  2100 HSR images which are divided into 21 challenging scene categories.<br/>>University of the Chinese Academy of Sciences<br/>>2016 | English | 21 | 2100 | 0.3048m |
 ### Popular Implementations
 | Code | Framework |
 |---|---|
