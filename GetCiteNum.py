@@ -4,15 +4,20 @@ from time import sleep
 
 def getCiteNumbyTitle(paper_title, session):
     headers = {
-        'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
-        'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
-        'Connection': 'keep-alive',
-        'Upgrade-Insecure-Requests': '1',
-        'Sec-Fetch-Dest': 'document',
-        'Sec-Fetch-Mode': 'navigate',
-        'Sec-Fetch-Site': 'same-origin',
-        'Sec-Fetch-User': '?1',
+        'authority': 'scholar.lanfanshu.cn',
+        'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'accept-language': 'zh-CN,zh;q=0.9,zh-Hans;q=0.8',
+        'cache-control': 'max-age=0',
+        'referer': 'https://scholar.lanfanshu.cn/',
+        'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Microsoft Edge";v="114"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Linux"',
+        'sec-fetch-dest': 'document',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-user': '?1',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
     }
 
     params = {
@@ -22,7 +27,7 @@ def getCiteNumbyTitle(paper_title, session):
         'btnG': '',
     }
 
-    response = session.get('https://sc.panda321.com/scholar', params=params, headers=headers)
+    response = session.get('https://scholar.lanfanshu.cn/scholar', params=params, headers=headers)
     num_cite = re.findall(r'被引用次数：(.*?)</a>', response.text)
     # print(paper_title)
     # print(num_cite)
