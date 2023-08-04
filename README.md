@@ -74,3 +74,5 @@ Blogs
 ### Blogs
 | Title | Author | Overview |
 |---|---|---|
+| [illustrated-transformer](http://jalammar.github.io/illustrated-transformer/) | [Jay Alammar](http://jalammar.github.io/) | Visualize the principle of the Transformer |
+| [visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/) | [Jay Alammar](http://jalammar.github.io/) | Visualize the principle of the Machine Translation |
