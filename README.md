@@ -53,6 +53,7 @@ Blogs
 | [RSICD](https://ieeexplore.ieee.org/document/8240966)<br/>> University of Chinese Academy of Sciences<br/> >English<br/>> 2018<br/>> 30 categories<br/>> 10921 images | <div align="center"><img src="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/36/8323433/8240966/lu1-2776321-large.gif" width="300"></div><br/>It contains more than ten thousands remote sensing images which are collected from Google Earth, Baidu Map, MapABC and Tianditu. |
 | [Sydney captions](https://ieeexplore.ieee.org/document/7546397)<br/>> University of the Chinese Academy of Sciences<br/> >English<br/>> 2016<br/>> 7 categories<br/>> 613 images<br/>> 0.5m | <div align="center"><img src="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/7536293/7546377/7546397/7546397-fig-4-source-large.gif" width="300"></div><br/>It contains 7 different scene categories and totally has 613 HSR images. |
 | [UCM captions](https://ieeexplore.ieee.org/document/7546397)<br/>> University of the Chinese Academy of Sciences<br/> >English<br/>> 2016<br/>> 21 categories<br/>> 2100 images<br/>> 0.3048m | <div align="center"><img src="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/7536293/7546377/7546397/7546397-fig-4-source-large.gif" width="300"></div><br/>It is based on the UC Merced Land Use Dataset and has  2100 HSR images which are divided into 21 challenging scene categories. |
+
 ### Popular Implementations
 | Code | Paper | Framework |
 |---|---|---|
@@ -66,6 +67,9 @@ Blogs
 | [NeuralBabyTalk](https://github.com/jiasenlu/NeuralBabyTalk) | [Neural Baby Talk](https://arxiv.org/abs/1803.09845) | Pytorch |
 | [Recurrent_Fusion_Network](https://github.com/cswhjiang/Recurrent_Fusion_Network) | [Recurrent Fusion Network for Image Captioning](https://arxiv.org/abs/1807.09986) | Pytorch |
 | [Stack-Captioning](https://github.com/gujiuxiang/Stack-Captioning) | [Stack-Captioning: Coarse-to-Fine Learning for Image Captioning](https://arxiv.org/abs/1709.03376) | Pytorch |
+| [image_captioning](https://github.com/DeepRNN/image_captioning) | [Show, Attend and Tell: Neural Image Caption Generation with Visual Attention](https://arxiv.org/abs/1502.03044) | Tensorflow |
+| [densecap](https://github.com/jcjohnson/densecap) | [DenseCap: Fully Convolutional Localization Networks for Dense Captioning](https://arxiv.org/abs/1511.07571) | Torch |
+| [AdaptiveAttention](https://github.com/jiasenlu/AdaptiveAttention) | [Knowing When to Look: Adaptive Attention via A Visual Sentinel for Image Captioning](https://arxiv.org/abs/1612.01887) | Torch |
 
 ### Blogs
 | Title | Author | Overview |
