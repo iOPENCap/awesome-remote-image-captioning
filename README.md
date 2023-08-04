@@ -10,7 +10,7 @@ Datasets
 | [dataset name](paper url)<br/>> affiliation<br/> >language<br/>> year<br/>>  (categories) categories<br/>> (total images num) images<br/>> resolution | <div align="center"><img src="main image url" width="300"></div><br/>dataset description |
 
 Popular Implementations
-| [仓库名称](仓库地址) | 框架 |
+| [仓库名称](仓库地址) | [论文名称](论文链接) | 框架 |
 
 Blogs
 | [Blog标题](Blog地址) | 作者 | 一句话概括 |
@@ -54,8 +54,8 @@ Blogs
 | [Sydney captions](https://ieeexplore.ieee.org/document/7546397)<br/>> University of the Chinese Academy of Sciences<br/> >English<br/>> 2016<br/>> 7 categories<br/>> 613 images<br/>> 0.5m | <div align="center"><img src="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/7536293/7546377/7546397/7546397-fig-4-source-large.gif" width="300"></div><br/>It contains 7 different scene categories and totally has 613 HSR images. |
 | [UCM captions](https://ieeexplore.ieee.org/document/7546397)<br/>> University of the Chinese Academy of Sciences<br/> >English<br/>> 2016<br/>> 21 categories<br/>> 2100 images<br/>> 0.3048m | <div align="center"><img src="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/7536293/7546377/7546397/7546397-fig-4-source-large.gif" width="300"></div><br/>It is based on the UC Merced Land Use Dataset and has  2100 HSR images which are divided into 21 challenging scene categories. |
 ### Popular Implementations
-| Code | Framework |
-|---|---|
+| Code | Paper | Framework |
+|---|---|---|
 
 ### Blogs
 | Title | Author | Overview |
