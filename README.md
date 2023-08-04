@@ -56,6 +56,16 @@ Blogs
 ### Popular Implementations
 | Code | Paper | Framework |
 |---|---|---|
+|[a-PyTorch-Tutorial-to-Image-Captioning](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning) | [Show, Attend and Tell: Neural Image Caption Generation with Visual Attention](https://arxiv.org/abs/1502.03044) | Pytorch |
+|[ImageCaptioning.pytorch](https://github.com/ruotianluo/ImageCaptioning.pytorch/tree/master) | [Self-critical Sequence Training for Image Captioning](https://arxiv.org/abs/1612.00563) | Pytorch |
+| [stylenet](https://github.com/kacky24/stylenet) | [StyleNet: Generating Attractive Visual Captions with Styles](https://ieeexplore.ieee.org/document/8099591) | Pytorch |
+| [image-captioning-bottom-up-top-down](https://github.com/poojahira/image-captioning-bottom-up-top-down/blob/master/README.md) | [Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering](https://arxiv.org/abs/1707.07998) | Pytorch |
+| [knowing-when-to-look-adaptive-attention](https://github.com/fawazsammani/knowing-when-to-look-adaptive-attention) | [Knowing When to Look: Adaptive Attention via A Visual Sentinel for Image Captioning](https://arxiv.org/abs/1612.01887) | Pytorch |
+| [show-control-and-tell](https://github.com/aimagelab/show-control-and-tell) | [Show, Control and Tell: A Framework for Generating Controllable and Grounded Captions](https://arxiv.org/abs/1811.10652) | Pytorch |
+| [Multitask_Image_Captioning](https://github.com/andyweizhao/Multitask_Image_Captioning) | [Multitask Learning for Cross-Domain Image Captioning](https://ieeexplore.ieee.org/document/8457273) | Pytorch |
+| [NeuralBabyTalk](https://github.com/jiasenlu/NeuralBabyTalk) | [Neural Baby Talk](https://arxiv.org/abs/1803.09845) | Pytorch |
+| [Recurrent_Fusion_Network](https://github.com/cswhjiang/Recurrent_Fusion_Network) | [Recurrent Fusion Network for Image Captioning](https://arxiv.org/abs/1807.09986) | Pytorch |
+| [Stack-Captioning](https://github.com/gujiuxiang/Stack-Captioning) | [Stack-Captioning: Coarse-to-Fine Learning for Image Captioning](https://arxiv.org/abs/1709.03376) | Pytorch |
 
 ### Blogs
 | Title | Author | Overview |
