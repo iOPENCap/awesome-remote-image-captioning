@@ -39,7 +39,7 @@ session = requests.session()
 
 with open('README.md', 'r') as f:
     text = f.readlines()
-    start_idx = text.index('### Papers\n') + 3
+    start_idx = text.index('#### Full Version\n') + 3
     end_idx = text.index('### Datasets\n')
 
     for relate_row, item in enumerate(text[start_idx:end_idx]):
