@@ -99,6 +99,59 @@ Blogs
 | [densecap](https://github.com/jcjohnson/densecap) | [DenseCap: Fully Convolutional Localization Networks for Dense Captioning](https://arxiv.org/abs/1511.07571) | Torch |
 | [AdaptiveAttention](https://github.com/jiasenlu/AdaptiveAttention) | [Knowing When to Look: Adaptive Attention via A Visual Sentinel for Image Captioning](https://arxiv.org/abs/1612.01887) | Torch |
 
+### SOTA
+#### UCM-CAPTIONS
+| metrics | sota | method | paper |
+| --- | --- | --- | --- |
+| BLEU-1 | 0.826 | MLCA-Net | [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055) |
+| BLEU-2 | 0.770 | MLCA-Net | [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055) |
+| BLEU-3 | 0.717 | MLCA-Net | [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055) |
+| BLEU-4 | 0.668 | MLCA-Net | [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055) |
+| METEOR | 0.435 | MLCA-Net | [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055) |
+| ROUGE | 0.772 | MLCA-Net | [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055) |
+| CIDEr | 3.240 | MLCA-Net | [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055) |
+#### SYDNEY-CAPTIONS
+| metrics | sota | method | paper |
+| --- | --- | --- | --- |
+| BLEU-1 | 0.831 | MLCA-Net | [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055) |
+| BLEU-2 | 0.742 | MLCA-Net | [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055) |
+| BLEU-3 | 0.659 | MLCA-Net | [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055) |
+| BLEU-4 | 0.582 | SM-Att-LSTM | [Description Generation for Remote Sensing Images Using Attribute Attention Mechanism](https://www.mdpi.com/2072-4292/11/6/612) |
+| METEOR | 0.411 | SM-Att-LSTM | [Description Generation for Remote Sensing Images Using Attribute Attention Mechanism](https://www.mdpi.com/2072-4292/11/6/612) |
+| ROUGE | 0.720 | SM-Att-LSTM | [Description Generation for Remote Sensing Images Using Attribute Attention Mechanism](https://www.mdpi.com/2072-4292/11/6/612) |
+| CIDEr | 2.324 | MLCA-Net | [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055) |
+#### RSICD
+| metrics | sota | method | paper |
+| --- | --- | --- | --- |
+| BLEU-1 | 0.757 | MLCA-Net | [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055) |
+| BLEU-2 | 0.634 | MLCA-Net | [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055) |
+| BLEU-3 | 0.539 | MLCA-Net | [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055) |
+| BLEU-4 | 0.461 | MLCA-Net | [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055) |
+| METEOR | 0.351 | MLCA-Net | [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055) |
+| ROUGE | 0.646 | MLCA-Net | [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055) |
+| CIDEr | 2.418 | SM-Att-LSTM | [Description Generation for Remote Sensing Images Using Attribute Attention Mechanism](https://www.mdpi.com/2072-4292/11/6/612) |
+#### NWPU-CAPTIONS
+| metrics | sota | method | paper |
+| --- | --- | --- | --- |
+| BLEU-1 | 0.745 | MLCA-Net | [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055) |
+| BLEU-2 | 0.624 | MLCA-Net | [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055) |
+| BLEU-3 | 0.541 | MLCA-Net | [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055) |
+| BLEU-4 | 0.478 | MLCA-Net | [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055) |
+| METEOR | 0.337 | MLCA-Net | [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055) |
+| ROUGE | 0.601 | MLCA-Net | [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055) |
+| CIDEr | 1.264 | MLCA-Net | [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055) |
+#### LEVIR-CC
+| metrics | sota | method | paper |
+| --- | --- | --- | --- |
+| BLEU-1 | 0.8481 | RSICCformer | [Remote Sensing Image Change Captioning With Dual-Branch Transformers: A New Method and a Large Scale Dataset](https://ieeexplore.ieee.org/document/9934924) |
+| BLEU-2 | 0.7639 | RSICCformer | [Remote Sensing Image Change Captioning With Dual-Branch Transformers: A New Method and a Large Scale Dataset](https://ieeexplore.ieee.org/document/9934924) |
+| BLEU-3 | 0.6914 | RSICCformer | [Remote Sensing Image Change Captioning With Dual-Branch Transformers: A New Method and a Large Scale Dataset](https://ieeexplore.ieee.org/document/9934924) |
+| BLEU-4 | 0.6307 | RSICCformer | [Remote Sensing Image Change Captioning With Dual-Branch Transformers: A New Method and a Large Scale Dataset](https://ieeexplore.ieee.org/document/9934924) |
+| METEOR | 0.3961 | RSICCformer | [Remote Sensing Image Change Captioning With Dual-Branch Transformers: A New Method and a Large Scale Dataset](https://ieeexplore.ieee.org/document/9934924) |
+| ROUGE | 0.7418 | RSICCformer | [Remote Sensing Image Change Captioning With Dual-Branch Transformers: A New Method and a Large Scale Dataset](https://ieeexplore.ieee.org/document/9934924) |
+| CIDEr | 1.3468 | RSICCformer | [Remote Sensing Image Change Captioning With Dual-Branch Transformers: A New Method and a Large Scale Dataset](https://ieeexplore.ieee.org/document/9934924) |
+
+
 ### Blogs
 | Title | Author | Overview |
 |---|---|---|
