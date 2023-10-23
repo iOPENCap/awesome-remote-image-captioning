@@ -112,7 +112,7 @@ Method  | Year | BLEU-1  | BLEU-2 | BLEU-3 | BLEU-4 | METEOR | ROUGE  |CIDEr | S
 　[Soft Attention](https://ieeexplore.ieee.org/document/8240966)|2019|0.7454|0.6545|0.5855|0.5250|0.3886|0.7237|2.6124| -- 
 　[Hard Attention](https://ieeexplore.ieee.org/document/8240966)|2019|0.8157|0.7312|0.6702|0.6182|0.4263|0.7698|2.9947| --
 　[Sound-a-a](https://ieeexplore.ieee.org/document/8931249)   |2020|0.7484|0.6837|0.6310|0.5896|0.3623|0.6579|2.7281|0.3907
-　[SAT(LAM)](https://www.mdpi.com/2072-4292/11/20/2349)   |2019|0.8195|0.7764|0.7485|0.7161|0.4837|0.7908|3.6171|0.5024
+　[SAT(LAM)](https://www.mdpi.com/2072-4292/11/20/2349)  |2019|0.8195|0.7764|0.7485|0.7161|0.4837|0.7908|3.6171|0.5024
 　[ADAPTIVE(LAM)](https://www.mdpi.com/2072-4292/11/20/2349) |2019|0.8170|0.7510|0.6990|0.6540|0.4480|0.7870|3.2800|0.5030
 　[TCE loss-based](https://ieeexplore.ieee.org/document/9153154)|2020|0.8210|0.7622|0.7140|0.6700|0.4775|0.7567|2.8547| --
 　[Recurrent-ATT](https://ieeexplore.ieee.org/document/9515452)|2021|0.8518|0.7925|0.7432|0.6976|0.4571|0.8072|3.3887|0.4891
