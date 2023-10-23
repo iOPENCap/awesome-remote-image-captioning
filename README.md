@@ -125,15 +125,26 @@ DataSet: [UCM-CAPTIONS](https://ieeexplore.ieee.org/document/7546397)
 ---
 
 DataSet: [SYDNEY-CAPTIONS](https://ieeexplore.ieee.org/document/7546397)
-| metrics | sota | method | paper |
-| --- | --- | --- | --- |
-| BLEU-1 | 0.831 | MLCA-Net | [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055) |
-| BLEU-2 | 0.742 | MLCA-Net | [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055) |
-| BLEU-3 | 0.659 | MLCA-Net | [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055) |
-| BLEU-4 | 0.582 | SM-Att-LSTM | [Description Generation for Remote Sensing Images Using Attribute Attention Mechanism](https://www.mdpi.com/2072-4292/11/6/612) |
-| METEOR | 0.411 | SM-Att-LSTM | [Description Generation for Remote Sensing Images Using Attribute Attention Mechanism](https://www.mdpi.com/2072-4292/11/6/612) |
-| ROUGE | 0.720 | SM-Att-LSTM | [Description Generation for Remote Sensing Images Using Attribute Attention Mechanism](https://www.mdpi.com/2072-4292/11/6/612) |
-| CIDEr | 2.324 | MLCA-Net | [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055) |
+|Method  | Year | BLEU-1  | BLEU-2 | BLEU-3 | BLEU-4 | METEOR | ROUGE  |CIDEr | SPICE |
+ |------ | ------- | ------ | ------ | ------ | ------ | ------ | ---- | ----- | ----- |
+|　[VLAD-LSTM](https://ieeexplore.ieee.org/document/8240966) |2018|0.4913|0.3472|0.2760|0.2314|0.1930|0.4201|0.9164| --
+|　[SIFT-LSTM](https://ieeexplore.ieee.org/document/8240966) |2018|0.5793|0.4774|0.4183|0.3740|0.2707|0.5366|0.9873| --
+|　[CSMLF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8633358) |2019|0.5998|0.4583|0.3869|0.3433|0.2475|0.5018|0.9378| --
+|　[FC-ATT+LSTM](https://www.mdpi.com/2072-4292/11/6/612)            |2019|0.8076|0.7160|0.6276|0.5544|0.4099|0.7114|2.2033| --
+|　[SM-ATT+LSTM](https://www.mdpi.com/2072-4292/11/6/612)            |2019|0.8143|0.7351|0.6586|0.5806|0.4111|0.7195|2.3021| --
+|　[Soft Attention](https://ieeexplore.ieee.org/document/8240966)    |2019|0.7322|0.6674|0.6223|0.5820|0.3942|0.7127|2.4993| -- 
+|　[Hard Attention](https://ieeexplore.ieee.org/document/8240966)    |2019|0.7591|0.6610|0.5889|0.5258|0.3898|0.7189|2.1819| --
+|　[Sound-a-a](https://ieeexplore.ieee.org/document/8931249)         |2020|0.7093|0.6228|0.5393|0.4602|0.3121|0.5974|1.7477|0.3837
+|　[SAT(LAM)](https://www.mdpi.com/2072-4292/11/20/2349)             |2019|0.7405|0.6550|0.5904|0.5304|0.3689|0.6814|2.3519|0.4038
+|　[ADAPTIVE(LAM)](https://www.mdpi.com/2072-4292/11/20/2349)        |2019|0.7323|0.6316|0.5629|0.5074|0.3613|0.6775|2.3455|0.4243
+|　[TCE loss-based](https://ieeexplore.ieee.org/document/9153154)    |2020|0.7937|0.7304|0.6717|0.6193|0.4430|0.7130|2.4042| --
+|　[Recurrent-ATT](https://ieeexplore.ieee.org/document/9515452)     |2021|0.8000|0.7217|0.6531|0.5909|0.3908|0.7218|2.6311|0.4301
+|　[GVFGA+LSGA](https://ieeexplore.ieee.org/document/9632558)        |2022|0.7681|0.6846|0.6145|0.5504|0.3866|0.7030|2.4522|0.4532
+|　[SVM-D BOW](https://ieeexplore.ieee.org/document/9521989)         |2022|0.7787|0.6835|0.6023|0.5305|0.3797|0.6992|2.2722| --
+|　[SVM-D CONC](https://ieeexplore.ieee.org/document/9521989)        |2022|0.7547|0.6711|0.5970|0.5308|0.3643|0.6746|2.2222| --
+|　[MLCA-Net](https://ieeexplore.ieee.org/document/9521989)          |2022|0.8310|0.7420|0.6590|0.5800|0.3900|0.7110|2.3240|0.4090
+|[Structured attention](https://ieeexplore.ieee.org/document/9400386)|2022|0.7795|0.7019|0.6392|0.5861|0.3954|0.7299|2.3791| --
+|　[AJJTTSM](https://ieeexplore.ieee.org/document/9961235)    |2022|**0.8492**|**0.7797**|**0.7137**|**0.6496**|**0.4457**|**0.7660**|**2.8010**|**0.4679**| --
 ---
 DataSet: [RSICD](https://ieeexplore.ieee.org/document/8240966)
 | metrics | sota | method | paper |
