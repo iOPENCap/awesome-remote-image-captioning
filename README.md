@@ -147,16 +147,28 @@ DataSet: [SYDNEY-CAPTIONS](https://ieeexplore.ieee.org/document/7546397)
 |　[AJJTTSM](https://ieeexplore.ieee.org/document/9961235)    |2022|**0.8492**|**0.7797**|**0.7137**|**0.6496**|**0.4457**|**0.7660**|**2.8010**|**0.4679**| --
 ---
 DataSet: [RSICD](https://ieeexplore.ieee.org/document/8240966)
-| metrics | sota | method | paper |
-| --- | --- | --- | --- |
-| BLEU-1 | 0.757 | MLCA-Net | [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055) |
-| BLEU-2 | 0.634 | MLCA-Net | [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055) |
-| BLEU-3 | 0.539 | MLCA-Net | [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055) |
-| BLEU-4 | 0.461 | MLCA-Net | [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055) |
-| METEOR | 0.351 | MLCA-Net | [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055) |
-| ROUGE | 0.646 | MLCA-Net | [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055) |
-| CIDEr | 2.418 | SM-Att-LSTM | [Description Generation for Remote Sensing Images Using Attribute Attention Mechanism](https://www.mdpi.com/2072-4292/11/6/612) |
+|Method  | Year | BLEU-1  | BLEU-2 | BLEU-3 | BLEU-4 | METEOR | ROUGE  |CIDEr | SPICE |
+ |------ | ------- | ------ | ------ | ------ | ------ | ------ | ---- | ----- | ----- |
+|　[VLAD-LSTM](https://ieeexplore.ieee.org/document/8240966) |2018|0.5004|0.3195|0.2319|0.1778|0.2046|0.4334|1.1801| --
+|　[SIFT-LSTM](https://ieeexplore.ieee.org/document/8240966) |2018|0.4859|0.3033|0.2186|0.1678|0.1966|0.4174|1.0528| --
+|　[CSMLF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8633358) |2019|0.5759|0.3959|0.2832|0.2217|0.2128|0.4455|0.5297| --
+|　[FC-ATT+LSTM](https://www.mdpi.com/2072-4292/11/6/612)            |2019|0.7459|0.6250|0.5338|0.4574|0.3395|0.6333|2.3664| --
+|　[SM-ATT+LSTM](https://www.mdpi.com/2072-4292/11/6/612)            |2019|0.7571|0.6336|0.5385|0.4612|0.3513|0.6458|2.3563| --
+|　[Soft Attention](https://ieeexplore.ieee.org/document/8240966)    |2019|0.6753|0.5308|0.4333|0.3617|0.3255|0.6109|1.9643| -- 
+|　[Hard Attention](https://ieeexplore.ieee.org/document/8240966)    |2019|0.6669|0.5182|0.4164|0.3407|0.3201|0.6084|1.7925| --
+|　[Sound-a-a](https://ieeexplore.ieee.org/document/8931249)         |2020|0.6196|0.4819|0.3902|0.3195|0.2733|0.5143|1.6386|0.3598
+|　[SAT(LAM)](https://www.mdpi.com/2072-4292/11/20/2349)             |2019|0.6753|0.5537|0.4686|0.4026|0.3254|0.5823|2.5850|0.4636
+|　[ADAPTIVE(LAM)](https://www.mdpi.com/2072-4292/11/20/2349)        |2019|0.6664|0.5486|0.4676|0.4070|0.3230|0.5843|2.6055|0.4673
+|　[TCE loss-based](https://ieeexplore.ieee.org/document/9153154)    |2020|0.7608|0.6358|0.5471|0.4791|0.3425|0.6687|2. 4665| --
+|　[Recurrent-ATT](https://ieeexplore.ieee.org/document/9515452)     |2021|0.7729|0.6651|0.5782|0.5062|0.3626|0.6691|2.7549|0.4719
+|　[GVFGA+LSGA](https://ieeexplore.ieee.org/document/9632558)        |2022|0.6779|0.5600|0.4781|0.4165|0.3285|0.5929|2.6012|0.4683
+|　[SVM-D BOW](https://ieeexplore.ieee.org/document/9521989)         |2022|0.6112|0.4277|0.3153|0.2411|0.2303|0.4588|0.6825| --
+|　[SVM-D CONC](https://ieeexplore.ieee.org/document/9521989)        |2022|0.5999|0.4347|0.3550|0.2689|0.2299|0.4557|0.6854| --
+|　[MLCA-Net](https://ieeexplore.ieee.org/document/9521989)          |2022|0.7500|0.6310|0.5380|0.4590|0.3420|0.6380|2.4180|0.4440
+|[Structured attention](https://ieeexplore.ieee.org/document/9400386)|2022|0.7016|0.5614|0.4648|0.3934|0.3291|0.5706|1.7031| --
+|　[AJJTTSM](https://ieeexplore.ieee.org/document/9961235)    |2022|**0.7893**|**0.6795**|**0.5893**|**0.5135**|**0.3773**|**0.6823**|**2.7958**|**0.4877**| --
 ---
+
 DataSet: [NWPU-CAPTIONS](https://ieeexplore.ieee.org/document/9866055/)
 | metrics | sota | method | paper |
 | --- | --- | --- | --- |
