@@ -27,7 +27,7 @@ def getCiteNumbyTitle(paper_title, session):
         'btnG': '',
     }
 
-    response = session.get('https://scholar.lanfanshu.cn/scholar', params=params, headers=headers)
+    response = session.get('https://0-scholar-google-com.brum.beds.ac.uk/scholar', params=params, headers=headers)
     num_cite = re.findall(r'被引用次数：(.*?)</a>', response.text)
     # print(paper_title)
     # print(num_cite)
