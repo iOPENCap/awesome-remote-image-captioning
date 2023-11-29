@@ -7,7 +7,7 @@ def getCiteNumbyTitle(paper_title, session):
         'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
         'accept-language': 'zh-CN,zh;q=0.9,zh-Hans;q=0.8',
         'cache-control': 'max-age=0',
-        'referer': 'https://xs.cljtscd.com',
+        'referer': 'https://scholar.google.com',
         'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Microsoft Edge";v="114"',
         'sec-ch-ua-mobile': '?0',
         'sec-ch-ua-platform': '"Linux"',
@@ -26,11 +26,12 @@ def getCiteNumbyTitle(paper_title, session):
         'btnG': '',
     }
 
-    response = session.get('https://xs.cljtscd.com/scholar', params=params, headers=headers)
+    response = session.get('https://scholar.google.com/scholar', params=params, headers=headers)
     num_cite = re.findall(r'被引用次数：(.*?)</a>', response.text)
     # print(paper_title)
     # print(num_cite)
     num_cite = num_cite[0] if len(num_cite) != 0 else -1
+    sleep(1)
     return num_cite
 
 
