@@ -17,8 +17,10 @@ Blogs
 ```
 
 ### Papers
-#### LLM
 #### Lite Version
+##### LLM
+
+##### Traditional methods
 * [**TGRS 2024**] [0] [HCNet: Hierarchical Feature Aggregation and Cross-Modal Feature Alignment for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/10530889) *Zhigang Yang et al.*  [[paper]](https://ieeexplore.ieee.org/document/10530889)<br/>
 * [**Remote sensing 2024**] [1] [TSFE: Two-Stage Feature Enhancement for Remote Sensing Image Captioning]( https://doi.org/10.3390/rs16111843) *Guo et al.*  [[paper]]( https://doi.org/10.3390/rs16111843)<br/>
 * [**TGRS 2024**] [0] [A Multiscale Grouping Transformer with CLIP Latents for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/10492984) *Meng et al.*  [[paper]](https://ieeexplore.ieee.org/document/10492984)<br/>
