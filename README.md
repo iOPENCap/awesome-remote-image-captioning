@@ -18,6 +18,10 @@ Blogs
 
 ### Papers
 #### Lite Version
+* [**TGRS 2024**] [0] [HCNet: Hierarchical Feature Aggregation and Cross-Modal Feature Alignment for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/10530889) *Zhigang Yang et al.*  [[paper]](https://ieeexplore.ieee.org/document/10530889)<br/>
+* [**Remote sensing 2024**] [1] [TSFE: Two-Stage Feature Enhancement for Remote Sensing Image Captioning]( https://doi.org/10.3390/rs16111843) *Guo et al.*  [[paper]]( https://doi.org/10.3390/rs16111843)<br/>
+* [**TGRS 2024**] [0] [A Multiscale Grouping Transformer with CLIP Latents for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/10492984) *Meng et al.*  [[paper]](https://ieeexplore.ieee.org/document/10492984)<br/>
+* [**TGRS 2022**] [28] [Remote-Sensing Image Captioning Based on Multilayer Aggregated Transformer](https://ieeexplore.ieee.org/document/9709791) *Cheng et al.*  [[paper]](https://ieeexplore.ieee.org/document/9709791)<br/>
 * [**TGRS 2022**] [9] [NWPU-Captions Dataset and MLCA-Net for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9866055) *Cheng et al.*  [[paper]](https://ieeexplore.ieee.org/document/9866055)<br/>
 * [**TGRS 2022**] [6] [Remote Sensing Image Change Captioning With Dual-Branch Transformers: A New Method and a Large Scale Dataset](https://ieeexplore.ieee.org/document/9934924) *Liu et al.*  [[paper]](https://ieeexplore.ieee.org/document/9934924)<br/>
 * [**TGRS 2022**] [2] [A Joint-Training Two-Stage Method For Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/9961235) *Ye et al.*  [[paper]](https://ieeexplore.ieee.org/document/9961235)<br/>
