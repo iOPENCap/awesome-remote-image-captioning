@@ -29,7 +29,7 @@ Blogs
 * [**arXiv 2024**] [0] [SkySenseGPT: A Fine-Grained Instruction Tuning Dataset and Model for Remote Sensing Vision-Language Understanding](https://arxiv.org/abs/2406.10100) *Junwei Luo et al.*  [[paper]](https://arxiv.org/abs/2406.10100)<br/>
 
 ##### Traditional methods
-* [**TGRS 2024**] [0] [HCNet: Hierarchical Feature Aggregation and Cross-Modal Feature Alignment for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/10530889) *Zhigang Yang et al.*  [[paper]](https://ieeexplore.ieee.org/document/10530889)<br/>
+* [**TGRS 2024**] [0] [HCNet: Hierarchical Feature Aggregation and Cross-Modal Feature Alignment for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/10530889) *Zhigang Yang et al.*  [[paper]](https://ieeexplore.ieee.org/document/10530889)[[Code]](https://github.com/CVer-Yang/HCNet)<br/>
 * [**Remote sensing 2024**] [1] [TSFE: Two-Stage Feature Enhancement for Remote Sensing Image Captioning]( https://doi.org/10.3390/rs16111843) *Guo et al.*  [[paper]]( https://doi.org/10.3390/rs16111843)<br/>
 * [**TGRS 2024**] [0] [A Multiscale Grouping Transformer with CLIP Latents for Remote Sensing Image Captioning](https://ieeexplore.ieee.org/document/10492984) *Meng et al.*  [[paper]](https://ieeexplore.ieee.org/document/10492984)<br/>
 * [**TGRS 2022**] [28] [Remote-Sensing Image Captioning Based on Multilayer Aggregated Transformer](https://ieeexplore.ieee.org/document/9709791) *Cheng et al.*  [[paper]](https://ieeexplore.ieee.org/document/9709791)<br/>
